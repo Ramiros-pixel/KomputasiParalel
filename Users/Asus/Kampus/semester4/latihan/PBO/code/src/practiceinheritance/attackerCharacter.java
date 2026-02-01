@@ -8,6 +8,7 @@ public class attackerCharacter  extends mainCharacter{
     }
 @Override
 void display() {
+    incAttack();
     attackPower();
     System.out.println("Name character: " + name );
     System.out.println("health: " + health );
