@@ -1,4 +1,4 @@
-package codewars;
+package Shorting;
 public class shorting {
   int[] examp = {1,3,0,4,5};
   int tamp = examp[0];
