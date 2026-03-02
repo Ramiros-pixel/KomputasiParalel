@@ -9,9 +9,8 @@ N = 300   # ubah sesuai kemampuan laptop
 A = [[random.random() for _ in range(N)] for _ in range(N)]
 B = [[random.random() for _ in range(N)] for _ in range(N)]
 
-# =========================
 # SERIAL VERSION
-# =========================
+
 def multiply_serial(A, B):
     N = len(A)
     C = [[0]*N for _ in range(N)]
@@ -23,9 +22,8 @@ def multiply_serial(A, B):
     
     return C
 
-# =========================
 # PARALLEL VERSION
-# =========================
+
 def multiply_row(args):
     row_index, A, B = args
     N = len(A)
